@@ -1,9 +1,18 @@
-.ipynb_checkpoints/
-__pycache__/
-*.pyc
-.env
+# Python environments
 .venv/
+.venv311/
+venv/
 
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Temporary and archived data
 data/*.zip
 data/*.zip_old
-data/.*
