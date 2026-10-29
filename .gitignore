@@ -7,12 +7,12 @@ venv/
 __pycache__/
 *.py[cod]
 
-# Jupyter
+# Jupyter checkpoints
 .ipynb_checkpoints/
 
 # macOS
 .DS_Store
 
-# Temporary and archived data
-data/*.zip
-data/*.zip_old
+# ZIP archives
+*.zip
+*.zip_old
